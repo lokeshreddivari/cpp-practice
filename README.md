@@ -1,2 +1,2 @@
 # cpp-practice
-C++ practice projects and experiments
+C++ and Qt practice projects — learning C++20, QML, embedded systems

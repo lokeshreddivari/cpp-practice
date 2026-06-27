@@ -1,5 +1,13 @@
 #include <QCoreApplication>
 
+void increment()
+{
+
+}
+void decrement()
+{
+
+}
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);

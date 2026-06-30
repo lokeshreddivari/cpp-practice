@@ -1,4 +1,3 @@
-#include <QCoreApplication>
 #include <iostream>
 using namespace std;
 class Singleton
@@ -22,14 +21,13 @@ private:
     Singleton& operator =(const Singleton&)=delete;
 };
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     // Learning C++ for career growth - Lokesh
-    QCoreApplication a(argc, argv);
-    Singleton& obj1=Singleton::getInstance();
-    Singleton& obj2=Singleton::getInstance();
-    cout<<&obj1<<endl;
-    cout<<&obj2<<endl;
+    Singleton& obj1 = Singleton::getInstance();
+    Singleton& obj2 = Singleton::getInstance();
+    cout << &obj1 << endl;
+    cout << &obj2 << endl;
 
-    return a.exec();
+    return 0;
 }

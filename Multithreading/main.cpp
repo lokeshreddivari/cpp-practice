@@ -16,7 +16,7 @@ std::condition_variable cv;
 bool thread1_turn = true;
 
 // How many times each thread increments
-const int MAX_COUNT = 10;
+const int MAX_COUNT = 100;
 
 void thread1_increment() {
     for (int i = 0; i < MAX_COUNT; i++) {
